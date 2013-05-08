@@ -1,0 +1,26 @@
+@charset "utf-8";
+
+body {
+  font: normal 15px/18px 'Arial', sans-serif;
+  margin: 0; padding: 0;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+a {
+  color: #1B7AE0;
+  text-decoration: none;
+  
+  &:hover {
+    color: #1B8EE0;
+    text-decoration: underline;
+  }
+}
+
+ul, li {
+  list-style: none;
+  margin: 0; padding: 0;
+}

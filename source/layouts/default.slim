@@ -1,0 +1,17 @@
+doctype 5
+html lang="pt-br"
+  head
+    meta charset="utf-8"
+    title= data.page.title || 'Squarebits Software: Webstatic Template'
+    meta name="description" content=""
+    meta name="author" content=""
+    meta name="viewport" content="width=device-width, initial-scale=1.0"
+    == stylesheet_link_tag :default
+    link rel="shortcut icon" href="/images/favicon.ico"
+  body
+    #page role="main" class="wrap"
+      header#page-header
+      #page-content== yield
+      footer#page-footer
+        p: small &copy; Squarebits Software 2013. Powered Middleman App.
+    == javascript_include_tag :default
